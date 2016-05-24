@@ -79,80 +79,38 @@ Module AppRegistry is not a registered callable module.
 
 ```
 $ tsc --traceResolution
-======== Resolving module 'react' from '/Volumes/Data/Test/index.android.js'. ========
+======== Resolving module 'react' from '/Volumes/DATA/Test/index.android.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react'
-Resolving module name 'react' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react'.
-Loading module as file / folder, candidate module location '/Volumes/Data/Test/react'.
-File '/Volumes/Data/Test/react.ts' does not exist.
-File '/Volumes/Data/Test/react.tsx' does not exist.
-File '/Volumes/Data/Test/react.d.ts' does not exist.
-File '/Volumes/Data/Test/react.js' does not exist.
-File '/Volumes/Data/Test/react.jsx' does not exist.
-File '/Volumes/Data/Test/react/package.json' does not exist.
-File '/Volumes/Data/Test/react/index.ts' does not exist.
-File '/Volumes/Data/Test/react/index.tsx' does not exist.
-File '/Volumes/Data/Test/react/index.d.ts' does not exist.
-File '/Volumes/Data/Test/react/index.js' does not exist.
-File '/Volumes/Data/Test/react/index.jsx' does not exist.
+'baseUrl' option is set to '/Volumes/DATA/Test', using this value to resolve non-relative module name 'react'
+Resolving module name 'react' relative to base url '/Volumes/DATA/Test' - '/Volumes/DATA/Test/react'.
+Loading module as file / folder, candidate module location '/Volumes/DATA/Test/react'.
+File '/Volumes/DATA/Test/react.ts' does not exist.
+File '/Volumes/DATA/Test/react.tsx' does not exist.
+File '/Volumes/DATA/Test/react.d.ts' does not exist.
+File '/Volumes/DATA/Test/react.js' does not exist.
+File '/Volumes/DATA/Test/react.jsx' does not exist.
+File '/Volumes/DATA/Test/react/package.json' does not exist.
+File '/Volumes/DATA/Test/react/index.ts' does not exist.
+File '/Volumes/DATA/Test/react/index.tsx' does not exist.
+File '/Volumes/DATA/Test/react/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/react/index.js' does not exist.
+File '/Volumes/DATA/Test/react/index.jsx' does not exist.
 Loading module 'react' from 'node_modules' folder.
-File '/Volumes/Data/Test/node_modules/react.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react.d.ts' does not exist.
-Found 'package.json' at '/Volumes/Data/Test/node_modules/react/package.json'.
+File '/Volumes/DATA/Test/node_modules/react.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react.d.ts' does not exist.
+Found 'package.json' at '/Volumes/DATA/Test/node_modules/react/package.json'.
 'package.json' does not have 'types' field.
-File '/Volumes/Data/Test/node_modules/react/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/package.json' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/index.d.ts' does not exist.
 File '/Volumes/DATA/node_modules/react.ts' does not exist.
 File '/Volumes/DATA/node_modules/react.tsx' does not exist.
 File '/Volumes/DATA/node_modules/react.d.ts' does not exist.
@@ -196,80 +154,38 @@ File '/node_modules/@types/react/index.ts' does not exist.
 File '/node_modules/@types/react/index.tsx' does not exist.
 File '/node_modules/@types/react/index.d.ts' does not exist.
 ======== Module name 'react' was not resolved. ========
-======== Resolving module 'react-native' from '/Volumes/Data/Test/index.android.js'. ========
+======== Resolving module 'react-native' from '/Volumes/DATA/Test/index.android.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react-native'
-Resolving module name 'react-native' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react-native'.
-Loading module as file / folder, candidate module location '/Volumes/Data/Test/react-native'.
-File '/Volumes/Data/Test/react-native.ts' does not exist.
-File '/Volumes/Data/Test/react-native.tsx' does not exist.
-File '/Volumes/Data/Test/react-native.d.ts' does not exist.
-File '/Volumes/Data/Test/react-native.js' does not exist.
-File '/Volumes/Data/Test/react-native.jsx' does not exist.
-File '/Volumes/Data/Test/react-native/package.json' does not exist.
-File '/Volumes/Data/Test/react-native/index.ts' does not exist.
-File '/Volumes/Data/Test/react-native/index.tsx' does not exist.
-File '/Volumes/Data/Test/react-native/index.d.ts' does not exist.
-File '/Volumes/Data/Test/react-native/index.js' does not exist.
-File '/Volumes/Data/Test/react-native/index.jsx' does not exist.
+'baseUrl' option is set to '/Volumes/DATA/Test', using this value to resolve non-relative module name 'react-native'
+Resolving module name 'react-native' relative to base url '/Volumes/DATA/Test' - '/Volumes/DATA/Test/react-native'.
+Loading module as file / folder, candidate module location '/Volumes/DATA/Test/react-native'.
+File '/Volumes/DATA/Test/react-native.ts' does not exist.
+File '/Volumes/DATA/Test/react-native.tsx' does not exist.
+File '/Volumes/DATA/Test/react-native.d.ts' does not exist.
+File '/Volumes/DATA/Test/react-native.js' does not exist.
+File '/Volumes/DATA/Test/react-native.jsx' does not exist.
+File '/Volumes/DATA/Test/react-native/package.json' does not exist.
+File '/Volumes/DATA/Test/react-native/index.ts' does not exist.
+File '/Volumes/DATA/Test/react-native/index.tsx' does not exist.
+File '/Volumes/DATA/Test/react-native/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/react-native/index.js' does not exist.
+File '/Volumes/DATA/Test/react-native/index.jsx' does not exist.
 Loading module 'react-native' from 'node_modules' folder.
-File '/Volumes/Data/Test/node_modules/react-native.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native.d.ts' does not exist.
-Found 'package.json' at '/Volumes/Data/Test/node_modules/react-native/package.json'.
+File '/Volumes/DATA/Test/node_modules/react-native.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native.d.ts' does not exist.
+Found 'package.json' at '/Volumes/DATA/Test/node_modules/react-native/package.json'.
 'package.json' does not have 'types' field.
-File '/Volumes/Data/Test/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/package.json' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/index.d.ts' does not exist.
 File '/Volumes/DATA/node_modules/react-native.ts' does not exist.
 File '/Volumes/DATA/node_modules/react-native.tsx' does not exist.
 File '/Volumes/DATA/node_modules/react-native.d.ts' does not exist.
@@ -313,108 +229,66 @@ File '/node_modules/@types/react-native/index.ts' does not exist.
 File '/node_modules/@types/react-native/index.tsx' does not exist.
 File '/node_modules/@types/react-native/index.d.ts' does not exist.
 ======== Module name 'react-native' was not resolved. ========
-======== Resolving module 'src/settings' from '/Volumes/Data/Test/index.android.js'. ========
+======== Resolving module 'src/settings' from '/Volumes/DATA/Test/index.android.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'src/settings'
-Resolving module name 'src/settings' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/src/settings'.
-Loading module as file / folder, candidate module location '/Volumes/Data/Test/src/settings'.
-File '/Volumes/Data/Test/src/settings.ts' does not exist.
-File '/Volumes/Data/Test/src/settings.tsx' does not exist.
-File '/Volumes/Data/Test/src/settings.d.ts' does not exist.
-File '/Volumes/Data/Test/src/settings.js' does not exist.
-File '/Volumes/Data/Test/src/settings.jsx' does not exist.
-File '/Volumes/Data/Test/src/settings/package.json' does not exist.
-File '/Volumes/Data/Test/src/settings/index.ts' does not exist.
-File '/Volumes/Data/Test/src/settings/index.tsx' does not exist.
-File '/Volumes/Data/Test/src/settings/index.d.ts' does not exist.
-File '/Volumes/Data/Test/src/settings/index.js' exist - use it as a name resolution result.
-Resolving real path for '/Volumes/Data/Test/src/settings/index.js', result '/Volumes/Data/Test/src/settings/index.js'
-======== Module name 'src/settings' was successfully resolved to '/Volumes/Data/Test/src/settings/index.js'. ========
-======== Resolving module 'src/something' from '/Volumes/Data/Test/src/settings/index.js'. ========
+'baseUrl' option is set to '/Volumes/DATA/Test', using this value to resolve non-relative module name 'src/settings'
+Resolving module name 'src/settings' relative to base url '/Volumes/DATA/Test' - '/Volumes/DATA/Test/src/settings'.
+Loading module as file / folder, candidate module location '/Volumes/DATA/Test/src/settings'.
+File '/Volumes/DATA/Test/src/settings.ts' does not exist.
+File '/Volumes/DATA/Test/src/settings.tsx' does not exist.
+File '/Volumes/DATA/Test/src/settings.d.ts' does not exist.
+File '/Volumes/DATA/Test/src/settings.js' does not exist.
+File '/Volumes/DATA/Test/src/settings.jsx' does not exist.
+File '/Volumes/DATA/Test/src/settings/package.json' does not exist.
+File '/Volumes/DATA/Test/src/settings/index.ts' does not exist.
+File '/Volumes/DATA/Test/src/settings/index.tsx' does not exist.
+File '/Volumes/DATA/Test/src/settings/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/src/settings/index.js' exist - use it as a name resolution result.
+Resolving real path for '/Volumes/DATA/Test/src/settings/index.js', result '/Volumes/DATA/Test/src/settings/index.js'
+======== Module name 'src/settings' was successfully resolved to '/Volumes/DATA/Test/src/settings/index.js'. ========
+======== Resolving module 'src/something' from '/Volumes/DATA/Test/src/settings/index.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'src/something'
-Resolving module name 'src/something' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/src/something'.
-Loading module as file / folder, candidate module location '/Volumes/Data/Test/src/something'.
-File '/Volumes/Data/Test/src/something.ts' does not exist.
-File '/Volumes/Data/Test/src/something.tsx' does not exist.
-File '/Volumes/Data/Test/src/something.d.ts' does not exist.
-File '/Volumes/Data/Test/src/something.js' exist - use it as a name resolution result.
-Resolving real path for '/Volumes/Data/Test/src/something.js', result '/Volumes/Data/Test/src/something.js'
-======== Module name 'src/something' was successfully resolved to '/Volumes/Data/Test/src/something.js'. ========
-======== Resolving module 'react' from '/Volumes/Data/Test/index.ios.js'. ========
+'baseUrl' option is set to '/Volumes/DATA/Test', using this value to resolve non-relative module name 'src/something'
+Resolving module name 'src/something' relative to base url '/Volumes/DATA/Test' - '/Volumes/DATA/Test/src/something'.
+Loading module as file / folder, candidate module location '/Volumes/DATA/Test/src/something'.
+File '/Volumes/DATA/Test/src/something.ts' does not exist.
+File '/Volumes/DATA/Test/src/something.tsx' does not exist.
+File '/Volumes/DATA/Test/src/something.d.ts' does not exist.
+File '/Volumes/DATA/Test/src/something.js' exist - use it as a name resolution result.
+Resolving real path for '/Volumes/DATA/Test/src/something.js', result '/Volumes/DATA/Test/src/something.js'
+======== Module name 'src/something' was successfully resolved to '/Volumes/DATA/Test/src/something.js'. ========
+======== Resolving module 'react' from '/Volumes/DATA/Test/index.ios.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react'
-Resolving module name 'react' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react'.
-Loading module as file / folder, candidate module location '/Volumes/Data/Test/react'.
-File '/Volumes/Data/Test/react.ts' does not exist.
-File '/Volumes/Data/Test/react.tsx' does not exist.
-File '/Volumes/Data/Test/react.d.ts' does not exist.
-File '/Volumes/Data/Test/react.js' does not exist.
-File '/Volumes/Data/Test/react.jsx' does not exist.
-File '/Volumes/Data/Test/react/package.json' does not exist.
-File '/Volumes/Data/Test/react/index.ts' does not exist.
-File '/Volumes/Data/Test/react/index.tsx' does not exist.
-File '/Volumes/Data/Test/react/index.d.ts' does not exist.
-File '/Volumes/Data/Test/react/index.js' does not exist.
-File '/Volumes/Data/Test/react/index.jsx' does not exist.
+'baseUrl' option is set to '/Volumes/DATA/Test', using this value to resolve non-relative module name 'react'
+Resolving module name 'react' relative to base url '/Volumes/DATA/Test' - '/Volumes/DATA/Test/react'.
+Loading module as file / folder, candidate module location '/Volumes/DATA/Test/react'.
+File '/Volumes/DATA/Test/react.ts' does not exist.
+File '/Volumes/DATA/Test/react.tsx' does not exist.
+File '/Volumes/DATA/Test/react.d.ts' does not exist.
+File '/Volumes/DATA/Test/react.js' does not exist.
+File '/Volumes/DATA/Test/react.jsx' does not exist.
+File '/Volumes/DATA/Test/react/package.json' does not exist.
+File '/Volumes/DATA/Test/react/index.ts' does not exist.
+File '/Volumes/DATA/Test/react/index.tsx' does not exist.
+File '/Volumes/DATA/Test/react/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/react/index.js' does not exist.
+File '/Volumes/DATA/Test/react/index.jsx' does not exist.
 Loading module 'react' from 'node_modules' folder.
-File '/Volumes/Data/Test/node_modules/react.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react.d.ts' does not exist.
-Found 'package.json' at '/Volumes/Data/Test/node_modules/react/package.json'.
+File '/Volumes/DATA/Test/node_modules/react.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react.d.ts' does not exist.
+Found 'package.json' at '/Volumes/DATA/Test/node_modules/react/package.json'.
 'package.json' does not have 'types' field.
-File '/Volumes/Data/Test/node_modules/react/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/package.json' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react/index.d.ts' does not exist.
 File '/Volumes/DATA/node_modules/react.ts' does not exist.
 File '/Volumes/DATA/node_modules/react.tsx' does not exist.
 File '/Volumes/DATA/node_modules/react.d.ts' does not exist.
@@ -458,80 +332,38 @@ File '/node_modules/@types/react/index.ts' does not exist.
 File '/node_modules/@types/react/index.tsx' does not exist.
 File '/node_modules/@types/react/index.d.ts' does not exist.
 ======== Module name 'react' was not resolved. ========
-======== Resolving module 'react-native' from '/Volumes/Data/Test/index.ios.js'. ========
+======== Resolving module 'react-native' from '/Volumes/DATA/Test/index.ios.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react-native'
-Resolving module name 'react-native' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react-native'.
-Loading module as file / folder, candidate module location '/Volumes/Data/Test/react-native'.
-File '/Volumes/Data/Test/react-native.ts' does not exist.
-File '/Volumes/Data/Test/react-native.tsx' does not exist.
-File '/Volumes/Data/Test/react-native.d.ts' does not exist.
-File '/Volumes/Data/Test/react-native.js' does not exist.
-File '/Volumes/Data/Test/react-native.jsx' does not exist.
-File '/Volumes/Data/Test/react-native/package.json' does not exist.
-File '/Volumes/Data/Test/react-native/index.ts' does not exist.
-File '/Volumes/Data/Test/react-native/index.tsx' does not exist.
-File '/Volumes/Data/Test/react-native/index.d.ts' does not exist.
-File '/Volumes/Data/Test/react-native/index.js' does not exist.
-File '/Volumes/Data/Test/react-native/index.jsx' does not exist.
+'baseUrl' option is set to '/Volumes/DATA/Test', using this value to resolve non-relative module name 'react-native'
+Resolving module name 'react-native' relative to base url '/Volumes/DATA/Test' - '/Volumes/DATA/Test/react-native'.
+Loading module as file / folder, candidate module location '/Volumes/DATA/Test/react-native'.
+File '/Volumes/DATA/Test/react-native.ts' does not exist.
+File '/Volumes/DATA/Test/react-native.tsx' does not exist.
+File '/Volumes/DATA/Test/react-native.d.ts' does not exist.
+File '/Volumes/DATA/Test/react-native.js' does not exist.
+File '/Volumes/DATA/Test/react-native.jsx' does not exist.
+File '/Volumes/DATA/Test/react-native/package.json' does not exist.
+File '/Volumes/DATA/Test/react-native/index.ts' does not exist.
+File '/Volumes/DATA/Test/react-native/index.tsx' does not exist.
+File '/Volumes/DATA/Test/react-native/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/react-native/index.js' does not exist.
+File '/Volumes/DATA/Test/react-native/index.jsx' does not exist.
 Loading module 'react-native' from 'node_modules' folder.
-File '/Volumes/Data/Test/node_modules/react-native.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native.d.ts' does not exist.
-Found 'package.json' at '/Volumes/Data/Test/node_modules/react-native/package.json'.
+File '/Volumes/DATA/Test/node_modules/react-native.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native.d.ts' does not exist.
+Found 'package.json' at '/Volumes/DATA/Test/node_modules/react-native/package.json'.
 'package.json' does not have 'types' field.
-File '/Volumes/Data/Test/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/Data/Test/node_modules/@types/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/rnVsCode/node_modules/@types/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/Clients/node_modules/@types/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/react-native/index.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native.d.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/package.json' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/index.ts' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/index.tsx' does not exist.
-File '/Volumes/DATA/AA-AppFeel/node_modules/@types/react-native/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/react-native/index.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native.d.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/package.json' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/index.ts' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/index.tsx' does not exist.
+File '/Volumes/DATA/Test/node_modules/@types/react-native/index.d.ts' does not exist.
 File '/Volumes/DATA/node_modules/react-native.ts' does not exist.
 File '/Volumes/DATA/node_modules/react-native.tsx' does not exist.
 File '/Volumes/DATA/node_modules/react-native.d.ts' does not exist.
@@ -575,18 +407,18 @@ File '/node_modules/@types/react-native/index.ts' does not exist.
 File '/node_modules/@types/react-native/index.tsx' does not exist.
 File '/node_modules/@types/react-native/index.d.ts' does not exist.
 ======== Module name 'react-native' was not resolved. ========
-======== Resolving module './something' from '/Volumes/Data/Test/src/thisWorks.js'. ========
+======== Resolving module './something' from '/Volumes/DATA/Test/src/thisWorks.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-Loading module as file / folder, candidate module location '/Volumes/Data/Test/src/something'.
-File '/Volumes/Data/Test/src/something.ts' does not exist.
-File '/Volumes/Data/Test/src/something.tsx' does not exist.
-File '/Volumes/Data/Test/src/something.d.ts' does not exist.
-File '/Volumes/Data/Test/src/something.js' exist - use it as a name resolution result.
-Resolving real path for '/Volumes/Data/Test/src/something.js', result '/Volumes/Data/Test/src/something.js'
-======== Module name './something' was successfully resolved to '/Volumes/Data/Test/src/something.js'. ========
-error TS5055: Cannot write file '/Volumes/Data/Test/index.android.js' because it would overwrite input file.
-error TS5055: Cannot write file '/Volumes/Data/Test/index.ios.js' because it would overwrite input file.
-error TS5055: Cannot write file '/Volumes/Data/Test/src/settings/index.js' because it would overwrite input file.
-error TS5055: Cannot write file '/Volumes/Data/Test/src/something.js' because it would overwrite input file.
-error TS5055: Cannot write file '/Volumes/Data/Test/src/thisWorks.js' because it would overwrite input file.
+Loading module as file / folder, candidate module location '/Volumes/DATA/Test/src/something'.
+File '/Volumes/DATA/Test/src/something.ts' does not exist.
+File '/Volumes/DATA/Test/src/something.tsx' does not exist.
+File '/Volumes/DATA/Test/src/something.d.ts' does not exist.
+File '/Volumes/DATA/Test/src/something.js' exist - use it as a name resolution result.
+Resolving real path for '/Volumes/DATA/Test/src/something.js', result '/Volumes/DATA/Test/src/something.js'
+======== Module name './something' was successfully resolved to '/Volumes/DATA/Test/src/something.js'. ========
+error TS5055: Cannot write file '/Volumes/DATA/Test/index.android.js' because it would overwrite input file.
+error TS5055: Cannot write file '/Volumes/DATA/Test/index.ios.js' because it would overwrite input file.
+error TS5055: Cannot write file '/Volumes/DATA/Test/src/settings/index.js' because it would overwrite input file.
+error TS5055: Cannot write file '/Volumes/DATA/Test/src/something.js' because it would overwrite input file.
+error TS5055: Cannot write file '/Volumes/DATA/Test/src/thisWorks.js' because it would overwrite input file.
 ```
