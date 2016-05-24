@@ -81,8 +81,8 @@ Module AppRegistry is not a registered callable module.
 $ tsc --traceResolution
 ======== Resolving module 'react' from '/Volumes/Data/Test/index.android.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react'
-Resolving module name 'react' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react'.
+'baseUrl' option is set to '/Volumes/Data/Test', using this value to resolve non-relative module name 'react'
+Resolving module name 'react' relative to base url '/Volumes/Data/Test' - '/Volumes/Data/Test/react'.
 Loading module as file / folder, candidate module location '/Volumes/Data/Test/react'.
 File '/Volumes/Data/Test/react.ts' does not exist.
 File '/Volumes/Data/Test/react.tsx' does not exist.
@@ -198,8 +198,8 @@ File '/node_modules/@types/react/index.d.ts' does not exist.
 ======== Module name 'react' was not resolved. ========
 ======== Resolving module 'react-native' from '/Volumes/Data/Test/index.android.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react-native'
-Resolving module name 'react-native' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react-native'.
+'baseUrl' option is set to '/Volumes/Data/Test', using this value to resolve non-relative module name 'react-native'
+Resolving module name 'react-native' relative to base url '/Volumes/Data/Test' - '/Volumes/Data/Test/react-native'.
 Loading module as file / folder, candidate module location '/Volumes/Data/Test/react-native'.
 File '/Volumes/Data/Test/react-native.ts' does not exist.
 File '/Volumes/Data/Test/react-native.tsx' does not exist.
@@ -315,8 +315,8 @@ File '/node_modules/@types/react-native/index.d.ts' does not exist.
 ======== Module name 'react-native' was not resolved. ========
 ======== Resolving module 'src/settings' from '/Volumes/Data/Test/index.android.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'src/settings'
-Resolving module name 'src/settings' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/src/settings'.
+'baseUrl' option is set to '/Volumes/Data/Test', using this value to resolve non-relative module name 'src/settings'
+Resolving module name 'src/settings' relative to base url '/Volumes/Data/Test' - '/Volumes/Data/Test/src/settings'.
 Loading module as file / folder, candidate module location '/Volumes/Data/Test/src/settings'.
 File '/Volumes/Data/Test/src/settings.ts' does not exist.
 File '/Volumes/Data/Test/src/settings.tsx' does not exist.
@@ -332,8 +332,8 @@ Resolving real path for '/Volumes/Data/Test/src/settings/index.js', result '/Vol
 ======== Module name 'src/settings' was successfully resolved to '/Volumes/Data/Test/src/settings/index.js'. ========
 ======== Resolving module 'src/something' from '/Volumes/Data/Test/src/settings/index.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'src/something'
-Resolving module name 'src/something' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/src/something'.
+'baseUrl' option is set to '/Volumes/Data/Test', using this value to resolve non-relative module name 'src/something'
+Resolving module name 'src/something' relative to base url '/Volumes/Data/Test' - '/Volumes/Data/Test/src/something'.
 Loading module as file / folder, candidate module location '/Volumes/Data/Test/src/something'.
 File '/Volumes/Data/Test/src/something.ts' does not exist.
 File '/Volumes/Data/Test/src/something.tsx' does not exist.
@@ -343,8 +343,8 @@ Resolving real path for '/Volumes/Data/Test/src/something.js', result '/Volumes/
 ======== Module name 'src/something' was successfully resolved to '/Volumes/Data/Test/src/something.js'. ========
 ======== Resolving module 'react' from '/Volumes/Data/Test/index.ios.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react'
-Resolving module name 'react' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react'.
+'baseUrl' option is set to '/Volumes/Data/Test', using this value to resolve non-relative module name 'react'
+Resolving module name 'react' relative to base url '/Volumes/Data/Test' - '/Volumes/Data/Test/react'.
 Loading module as file / folder, candidate module location '/Volumes/Data/Test/react'.
 File '/Volumes/Data/Test/react.ts' does not exist.
 File '/Volumes/Data/Test/react.tsx' does not exist.
@@ -460,8 +460,8 @@ File '/node_modules/@types/react/index.d.ts' does not exist.
 ======== Module name 'react' was not resolved. ========
 ======== Resolving module 'react-native' from '/Volumes/Data/Test/index.ios.js'. ========
 Module resolution kind is not specified, using 'NodeJs'.
-'baseUrl' option is set to '/Volumes/Test', using this value to resolve non-relative module name 'react-native'
-Resolving module name 'react-native' relative to base url '/Volumes/Test' - '/Volumes/Data/Test/react-native'.
+'baseUrl' option is set to '/Volumes/Data/Test', using this value to resolve non-relative module name 'react-native'
+Resolving module name 'react-native' relative to base url '/Volumes/Data/Test' - '/Volumes/Data/Test/react-native'.
 Loading module as file / folder, candidate module location '/Volumes/Data/Test/react-native'.
 File '/Volumes/Data/Test/react-native.ts' does not exist.
 File '/Volumes/Data/Test/react-native.tsx' does not exist.
